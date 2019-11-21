@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search": "/component/search/search",
+    "swipers": "/component/swipers/swipers",
+    "jita": "/component/jita/jita",
+    "recommend": "/component/recommend/recommend"
+  },
+  "navigationBarTitleText": "乐谱"
+}

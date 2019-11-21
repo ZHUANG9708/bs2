@@ -1,0 +1,34 @@
+/* component/recommend/recommend.wxss */
+
+.chansay {
+  width: 100%;
+  text-align: center;
+}
+
+.chansay .chansayBox {
+  display: flex;
+  width: 100%;
+  /* flex换行 */
+  flex-flow: row wrap;
+}
+
+.chansay .chansayBox .chansayBox2 {
+  flex: 1;
+  /* width: 100%; *//* margin: 0 auto; *//* padding-top: 20rpx; *//* box-shadow: 0 0 2rpx black; */
+}
+
+.chansayBox .chansayBox2 image {
+  /* border: 1px solid blue; */
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+  display: block;
+  /* padding: 10rpx; */
+}
+
+.chansay .chansayBox .chansayBox2 text {
+  display: block;
+  text-align: center;
+  padding: 10rpx;
+  font-size: 22rpx;
+}

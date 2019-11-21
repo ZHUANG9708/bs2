@@ -1,0 +1,28 @@
+/* component/jita/jita.wxss */
+
+.box{
+  width: 100%;
+}
+.jt {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.jt .jtBox {
+  flex: 1;
+  text-align:center;
+  padding: 15rpx;
+  /* border:1px solid black; */
+  box-shadow: 0 0 2rpx black;
+}
+
+.jt .jtBox image {
+  width: 125rpx;
+  height: 125rpx;
+  margin: auto;
+  display: block;
+}
+.jt .jtBox text{
+  display: block;
+}

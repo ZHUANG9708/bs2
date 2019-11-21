@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 搜索 -->
+  <search></search>
+  <!-- swiper轮播图 -->
+  <swipers></swipers>
+  <!-- flex布局 -->
+  <jita></jita>
+  <!-- 推荐曲谱 -->
+  <recommend></recommend>
+<!-- video推荐视频 -->
+  <videopages></videopages>
+  <!-- 精华帖子 -->
+  <recommend></recommend>
+  <text>1</text>
+</view>

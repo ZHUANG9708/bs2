@@ -1,0 +1,14 @@
+<!--pages/sheetmusic/sheetmusic.wxml-->
+<view class="container">
+  <!-- 搜索 -->
+  <search></search>
+  <!-- 推荐曲谱 -->
+  <recommend></recommend>
+  <!-- 精华帖子 -->
+  <recommend></recommend>
+<!-- video推荐视频 -->
+  <videopages></videopages>
+  <!-- 精华帖子 -->
+  <recommend></recommend>
+  <text>发布二手</text>
+</view>

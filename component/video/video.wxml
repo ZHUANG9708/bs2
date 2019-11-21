@@ -1,0 +1,12 @@
+<!--component/video/video.wxml-->
+<view class="video">
+      <text>推荐视频</text>
+    <view class="box">
+      <block wx:for="{{list}}" wx:key="index">
+        <view class="videoMin">
+          <image src="{{item.src}}"></image>
+          <text>{{item.text}}</text>
+        </view>
+      </block>
+    </view>
+  </view>

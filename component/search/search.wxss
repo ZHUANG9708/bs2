@@ -1,0 +1,17 @@
+/* component/search/search.wxss */
+
+/* component/popup.wxss */
+
+.search{
+  width: 100%;
+  /* height: 100%; */
+  /* justify-content: center; */
+}
+.search input{
+  width: 90%;
+  box-shadow: 0 0 6rpx black;
+  border-radius: 20rpx;
+  padding: 11rpx;
+  text-align: center;
+  margin: 0 auto;
+}

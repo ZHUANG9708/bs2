@@ -1,0 +1,29 @@
+/* component/video/video.wxss */
+.video {
+  width: 100%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.video .box {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.video .box  .videoMin {
+  flex: 1;
+  /* word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden; */
+}
+
+.video .box  .videoMin image {
+  width: 375rpx;
+  height: 235rpx;
+  display: block;
+}
+
+.video .box  .videoMin text {
+  font-size: 25rpx;
+  display: block;
+}

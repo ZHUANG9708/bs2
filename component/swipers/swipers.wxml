@@ -1,0 +1,23 @@
+<!--component/swipers/swipers.wxml-->
+<swiper indicator-dots="true" 
+autoplay="true" 
+circular="true"
+interval="1500"
+indicator-active-color="white"
+>
+  <swiper-item>
+    <image src="./11.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="./33.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="./11.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="./33.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="./11.jpg"></image>
+  </swiper-item>
+</swiper>

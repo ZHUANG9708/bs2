@@ -1,0 +1,12 @@
+<!--component/recommend/recommend.wxml-->
+<view class="chansay">
+  <text>推荐曲谱</text>
+  <view class="chansayBox">
+    <block wx:for="{{ list }}" wx:key="index">
+      <view class="chansayBox2 {{index}}">
+        <image src="{{item.src}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/music/music.wxml-->
+<view class="container">
+  <!-- 搜索 -->
+  <search></search>
+  <!-- swiper轮播图 -->
+  <swipers></swipers>
+  <!-- flex布局 -->
+  <jita></jita>
+  <!-- 推荐曲谱 -->
+  <recommend></recommend>
+  <!-- 精华帖子 -->
+  <recommend></recommend>
+  <text>2</text>
+</view>

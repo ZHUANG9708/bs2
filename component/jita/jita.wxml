@@ -1,0 +1,12 @@
+<!--component/jita/jita.wxml-->
+<view class="box">
+  <view class="jt">
+    <!-- item 是当前项，index是下标 -->
+    <block wx:for="{{ list }}" wx:key="index">
+      <view class="jtBox">
+        <image src="{{ item.src }}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </block>
+  </view>
+</view>

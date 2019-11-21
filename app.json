@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/music/music",
+    "pages/me/me",
+    "pages/sheetmusic/sheetmusic"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "主页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000080",
+    "selectedColor": "#1E90FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "./zhuye.png",
+        "selectedIconPath": "./zhuye-active.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "乐谱",
+        "iconPath": "./yinlefuhao.png",
+        "selectedIconPath": "./yinlefuhao-active.png"
+      },
+      {
+        "pagePath": "pages/sheetmusic/sheetmusic",
+        "text": "乐器",
+        "iconPath": "./leqi.png",
+        "selectedIconPath": "./leqi-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./wode.png",
+        "selectedIconPath": "./wode-active.png"
+      }
+    ]
+  }
+}
