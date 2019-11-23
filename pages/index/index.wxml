@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+<view>测试2</view>
   <!-- 搜索 -->
   <search></search>
   <!-- swiper轮播图 -->
