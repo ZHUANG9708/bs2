@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+<view>git测试</view>
   <!-- 搜索 -->
   <search></search>
   <!-- swiper轮播图 -->
