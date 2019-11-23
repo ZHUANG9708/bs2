@@ -5,7 +5,7 @@
   <!-- swiper轮播图 -->
   <swipers></swipers>
   <!-- flex布局 -->
-  <jita></jita>
+  <jita prop-a="{{dataFieldA}}"></jita>
   <!-- 推荐曲谱 -->
   <recommend></recommend>
 <!-- video推荐视频 -->
