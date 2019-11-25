@@ -2,8 +2,8 @@
 <view class="box">
   <view class="jt">
     <!-- item 是当前项，index是下标 -->
-    <block wx:for="{{ list }}" wx:key="index">
-      <view class="jtBox">
+    <block wx:for="{{ jitalist }}" wx:key="index">
+      <view class="jtBox" bindtap="onTapChild" data-text="{{item.text}}">
         <image src="{{ item.src }}"></image>
         <text>{{item.text}}</text>
       </view>

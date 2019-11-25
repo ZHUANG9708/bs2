@@ -5,10 +5,10 @@
   <!-- swiper轮播图 -->
   <swipers></swipers>
   <!-- flex布局 -->
-  <jita prop-a="{{dataFieldA}}"></jita>
+  <jita jitalist="{{ jitaconent }}" bind:parentEvent="onParentEvent"></jita>
   <!-- 推荐曲谱 -->
   <recommend></recommend>
-<!-- video推荐视频 -->
+  <!-- video推荐视频 -->
   <videopages></videopages>
   <!-- 精华帖子 -->
   <recommend></recommend>
