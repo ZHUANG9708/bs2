@@ -1,7 +1,6 @@
 <!--index.wxml-->
 <view class="container">
   <!-- 搜索 -->
-  <text>333</text>
   <search></search>
   <!-- swiper轮播图 -->
   <swipers></swipers>
