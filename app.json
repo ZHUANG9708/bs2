@@ -22,26 +22,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "主页",
-        "iconPath": "./zhuye.png",
-        "selectedIconPath": "./zhuye-active.png"
+        "iconPath": "./appimage/zhuye.png",
+        "selectedIconPath": "./appimage/zhuye-active.png"
       },
       {
         "pagePath": "pages/music/music",
         "text": "乐谱",
-        "iconPath": "./yinlefuhao.png",
-        "selectedIconPath": "./yinlefuhao-active.png"
+        "iconPath": "./appimage/yinlefuhao.png",
+        "selectedIconPath": "./appimage/yinlefuhao-active.png"
       },
       {
         "pagePath": "pages/sheetmusic/sheetmusic",
         "text": "乐器",
-        "iconPath": "./leqi.png",
-        "selectedIconPath": "./leqi-active.png"
+        "iconPath": "./appimage/leqi.png",
+        "selectedIconPath": "./appimage/leqi-active.png"
       },
       {
         "pagePath": "pages/me/me",
         "text": "我的",
-        "iconPath": "./wode.png",
-        "selectedIconPath": "./wode-active.png"
+        "iconPath": "./appimage/wode.png",
+        "selectedIconPath": "./appimage/wode-active.png"
       }
     ]
   }
