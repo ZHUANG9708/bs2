@@ -29,4 +29,7 @@
   font-size: 25rpx;
   display: block;
   width: 366rpx;
+  overflow: hidden;
+  text-overflow:  ellipsis;
+  white-space: nowrap;
 }

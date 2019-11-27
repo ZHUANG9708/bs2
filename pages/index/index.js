@@ -39,66 +39,66 @@ Page({
     ],
     recommendList: [{
       src: '../../pages/index/image/recommend/1.png',
-      text: '冰雪奇缘2 - All is Fo',
+      text: '冰雪奇缘2 - All is Fo字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/recommend/2.png',
-      text: '逝年（无限延音编配)',
+        text: '逝年（无限延音编配)字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/recommend/3.png',
-      text: 'Someday',
+        text: 'Someday字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/recommend/4.png',
-      text: '家族の时间',
+        text: '家族の时间字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/recommend/5.png',
-        text: '这就是爱情(无限延音编配)',
+        text: '这就是爱情(无限延音编配)字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/recommend/6.png',
-      text: '鲁迅先生',
+        text: '鲁迅先生字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }],
     videoListContent: [{
         src: "../../pages/index/image/video/starrysky.png",
-        text: "原创吉他 starry sky"
+      text: "原创吉他 starry sky字体超出隐藏，字体超出隐藏，字体超出隐藏，"
       },
       {
         src: "../../pages/index/image/video/给你听听我的宝贝.png",
-        text: "【给你听听我的宝贝】DNF-赫"
+        text: "【给你听听我的宝贝】DNF-赫字体超出隐藏，字体超出隐藏，字体超出隐藏，"
       },
       {
         src: "../../pages/index/image/video/执着.png",
-        text: "《执着》吉他弹唱教学——小磊吉"
+        text: "《执着》吉他弹唱教学——小磊吉字体超出隐藏，字体超出隐藏，字体超出隐藏，"
       },
       {
         src: "../../pages/index/image/video/绿光.png",
-        text: "布鲁克吉他 秦欢吉他弹奏《绿光》"
+        text: "布鲁克吉他 秦欢吉他弹奏《绿光》字体超出隐藏，字体超出隐藏，字体超出隐藏，"
       },
       {
         src: "../../pages/index/image/video/千与千寻.png",
-        text: "《千与千寻》尤克里里指弹教学"
+        text: "《千与千寻》尤克里里指弹教学字体超出隐藏，字体超出隐藏，字体超出隐藏，"
       },
       {
         src: "../../pages/index/image/video/沙漠骆驼.png",
-        text: "《沙漠骆驼》酷狗小哥吉他弹唱教学"
+        text: "《沙漠骆驼》酷狗小哥吉他弹唱教学字体超出隐藏，字体超出隐藏，字体超出隐藏，"
       }
     ],
     recommendListCopy: [{
       src: '../../pages/index/image/tuijian/1.png',
-      text: '【这是一场价值过万的钢琴课】',
+      text: '【这是一场价值过万的钢琴课】字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/tuijian/2.png',
-      text: '如何快速辨别一名吉他手',
+        text: '如何快速辨别一名吉他手字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/tuijian/3.png',
-      text: '楚门有谱《猜不透》',
+        text: '楚门有谱《猜不透》字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/tuijian/4.png',
-      text: '吉他弹唱|有谱|《夏天》',
+        text: '吉他弹唱|有谱|《夏天》字体超出隐藏，字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/tuijian/5.png',
-      text: '女生弹吉他遇到的困难怎么办',
+        text: '女生弹吉他遇到的困难怎么办字体超出隐藏，字体超出隐藏，',
     }, {
       src: '../../pages/index/image/tuijian/6.png',
-      text: '拿火将新增绿色LAN？？？',
+        text: '拿火将新增绿色LAN？？？字体超出隐藏，字体超出隐藏，',
     }]
   },
 

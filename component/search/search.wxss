@@ -8,10 +8,10 @@
   /* justify-content: center; */
 }
 .search input{
-  width: 90%;
-  box-shadow: 0 0 6rpx black;
-  border-radius: 20rpx;
+  width: 96%;
+  border-radius: 10rpx;
   padding: 11rpx;
   text-align: center;
   margin: 0 auto;
+  background: rgb(233, 230, 230);
 }

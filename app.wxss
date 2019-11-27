@@ -11,10 +11,12 @@
 }
 
 /* 搜索框 */
-
-search, .search search, swipers, jita, recommend {
+swipers{
+  width: 100%;
+}
+search, .search search,  jita, recommend {
   width: 99%;
-  margin: 20rpx auto;
+  margin: 10rpx auto;
 }
 
 jita {

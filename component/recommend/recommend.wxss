@@ -10,6 +10,7 @@
   width: 100%;
   /* flex换行 */
   flex-flow: row wrap;
+  padding: 10rpx 0;
 }
 
 .chansay .chansayBox .chansayBox2 {

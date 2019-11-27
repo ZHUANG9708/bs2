@@ -12,5 +12,4 @@
   <videopages videoList="{{videoListContent}}" bind:parentEvent="onvideoEvent"></videopages>
   <!-- 精华帖子 -->
   <recommend class="tuijian" list="{{recommendListCopy}}" bind:parentEvent="onrecommendEvent"></recommend>
-  <text>1</text>
 </view>
