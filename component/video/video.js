@@ -4,44 +4,35 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    videoList: {
+      type: Array,
+      value: [],
+      observer: function(newVal, oldVal, changePath) {
+        // 属性被改变时执行的函数（可选），也可以写成在methods段中定义的方法名字符串
+        // 通常 newVal 就是新设置的数据， oldVal 是旧数据
+      }
+    }
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-    list: [{
-        src: "./starrysky.png",
-        text: "原创吉他 starry sky"
-      },
-      {
-        src: "./给你听听我的宝贝.png",
-        text: "【给你听听我的宝贝】DNF-赫"
-      },
-      {
-        src: "./执着.png",
-        text: "《执着》吉他弹唱教学——小磊吉"
-      },
-      {
-        src: "./绿光.png",
-        text: "布鲁克吉他 秦欢吉他弹奏《绿光》"
-      },
-      {
-        src: "./千与千寻.png",
-        text: "《千与千寻》尤克里里指弹教学"
-      },
-      {
-        src: "./沙漠骆驼.png",
-        text: "《沙漠骆驼》酷狗小哥吉他弹唱教学"
-      }
-    ]
+    list: []
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-
+    onTapChild: function(event) {
+      // detail对象，提供给事件监听函数
+      var myEventDetail = {
+        text: event.currentTarget.dataset.text
+      }
+      // 触发事件的选项
+      var myEventOption = {}
+      this.triggerEvent('parentEvent', myEventDetail, myEventOption)
+    }
   }
 })

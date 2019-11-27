@@ -1,2 +1,8 @@
 /**index.wxss**/
 
+/* .tuijian text{
+  width: 370rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */

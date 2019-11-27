@@ -12,9 +12,13 @@
 
 /* 搜索框 */
 
-search,.search search,swipers,jita,recommend  {
-  width: 100%;
+search, .search search, swipers, jita, recommend {
+  width: 99%;
   margin: 20rpx auto;
+}
+
+jita {
+  font-size: 32rpx;
 }
 
 /* -------------end------------ */

@@ -5,7 +5,7 @@
   <!-- swiper轮播图 -->
   <swipers></swipers>
   <!-- flex布局 -->
-  <jita></jita>
+  <jita jitalist="{{jitacontent}}"></jita>
   <!-- 推荐曲谱 -->
   <recommend></recommend>
   <!-- 精华帖子 -->

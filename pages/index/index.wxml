@@ -5,12 +5,12 @@
   <!-- swiper轮播图 -->
   <swipers></swipers>
   <!-- flex布局 -->
-  <jita jitalist="{{ jitaconent }}" bind:parentEvent="onParentEvent"></jita>
+  <jita jitalist="{{ jitacontent }}" bind:parentEvent="onParentEvent"></jita>
   <!-- 推荐曲谱 -->
-  <recommend></recommend>
+  <recommend list="{{recommendList}}" bind:parentEvent="onrecommendEvent"></recommend>
   <!-- video推荐视频 -->
-  <videopages></videopages>
+  <videopages videoList="{{videoListContent}}" bind:parentEvent="onvideoEvent"></videopages>
   <!-- 精华帖子 -->
-  <recommend></recommend>
+  <recommend class="tuijian" list="{{recommendListCopy}}" bind:parentEvent="onrecommendEvent"></recommend>
   <text>1</text>
 </view>

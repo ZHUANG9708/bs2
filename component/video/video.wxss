@@ -1,4 +1,5 @@
 /* component/video/video.wxss */
+
 .video {
   width: 100%;
   /* border: 1px solid red; */
@@ -8,6 +9,7 @@
 .video .box {
   display: flex;
   flex-flow: row wrap;
+  padding: 6rpx;
 }
 
 .video .box  .videoMin {
@@ -18,7 +20,7 @@
 }
 
 .video .box  .videoMin image {
-  width: 375rpx;
+  width: 366rpx;
   height: 235rpx;
   display: block;
 }
@@ -26,4 +28,5 @@
 .video .box  .videoMin text {
   font-size: 25rpx;
   display: block;
+  width: 366rpx;
 }

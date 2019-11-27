@@ -3,7 +3,7 @@
   <text>推荐曲谱</text>
   <view class="chansayBox">
     <block wx:for="{{ list }}" wx:key="index">
-      <view class="chansayBox2 {{index}}">
+      <view class="chansayBox2 {{index}}" bindtap="onTapChild" data-text="{{item.text}}">
         <image src="{{item.src}}"></image>
         <text>{{item.text}}</text>
       </view>
